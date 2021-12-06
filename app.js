@@ -71,10 +71,10 @@ function addInsects() {
 
 function increaseScore() {
     score++
-    if(score === 5) {
+    if(score === 25) {
         message.classList.add('visible')
         message.addEventListener('click',()=>message.classList.remove('visible'))
-    }else if(score ===10){
+    }else if(score ===50){
         message.innerText='Are you annnoyed yet? <br> You are playing an impossible game!! Ha Ha'
         message.classList.add('visible')
 
